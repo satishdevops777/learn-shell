@@ -15,3 +15,20 @@ echo -e "\e[33mHello in Yellow Color\e[0m"
 echo -e "\e[34mHello in Blue Color\e[0m"
 echo -e "\e[35mHello in Magenta Color\e[0m"
 echo -e "\e[36mHello in Cyan Color\e[0m"
+
+
+
+#!/bin/bash
+
+echo "Enter your name:"
+read name
+echo "Hello $name"
+
+
+#!/bin/bash
+
+read -p "Enter your name: " name
+echo "Hello $name"
+
+# read -t 5 -p "Enter value in 5 seconds: " val
+# read -n 1 -p "Continue? (y/n): " choice
